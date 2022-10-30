@@ -28,3 +28,15 @@ if(typeof w === 'object' && w !== null) {
 
 
 let k: never = true;//Error: Type 'boolean' is not assignable to type 'never'
+
+
+//special types "undefined" and "null" are types that refer to js primitives "undefined and null respectively
+//they don't have much use unless strictNullChecks is enabled in the tsconfig.json file
+
+
+
+let y: undefined = undefined;
+console.log(typeof y);
+
+let z: null = null;
+console.log(typeof z);
