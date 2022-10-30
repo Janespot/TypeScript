@@ -6,7 +6,7 @@ console.log(Math.round(u));
 
 //"any"should be avoided at all cost
 //
-//special type "unknown"
+//special type "unknown" is like "any" but better than "any"
 
 let w: unknown = 1;
 w = "string";
