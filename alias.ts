@@ -1,3 +1,4 @@
+// TypeScript alias
 type carYear = number;
 type carType = string;
 type carModel = string;
