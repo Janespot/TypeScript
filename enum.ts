@@ -50,3 +50,5 @@ console.log(carinalDirections.North);//North
 
 console.log(cardinalDirections.East);//East
 
+//we can mi xand match string and numeric enum values but this is NOT recommended.
+
