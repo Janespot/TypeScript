@@ -13,3 +13,13 @@ const car: { type: string, mileage?: number } = {
 	type: "Toyota"
 };
 car.mileage = 2000;
+console.log(car);
+
+//index signatures are used for objects without a defined list of properties:
+
+const nameAgeMap: { [index: string]: number } = {};
+nameAgeMap.Jake = 27;
+nameAgeMap.Joan = "Fifty";//Error: type 'string' not assignable to type 'number'
+
+console.log(nameAgeMap);
+
