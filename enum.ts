@@ -1,3 +1,5 @@
+//Numeric enum
+
 enum cardinalDirections {
 	North,//starts with 0 which is default value when not assigned
 	East,
@@ -33,4 +35,18 @@ enum statusCode {
 console.log(statusCode.NotFound);//404
 
 console.log(statusCode.Success);//200
+
+
+//string enum
+
+enum cardinalDirections {
+	North = "North",
+	East = 'East',
+	South = 'South',
+	West = "West"
+};
+
+console.log(carinalDirections.North);//North
+
+console.log(cardinalDirections.East);//East
 
