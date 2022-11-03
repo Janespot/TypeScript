@@ -4,3 +4,12 @@ function getTime(): number {
 
 console.log(getTime());
 
+//void type used when a function doesn't return any value
+
+function printHello(): void {
+	console.log("Hello!");
+}
+
+printHello();
+
+
