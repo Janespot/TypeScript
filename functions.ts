@@ -20,4 +20,10 @@ function multiply(a: number, b: number){
 
 console.log(multiply(2,5))
 
+//optional parameters
 
+function add(a: number, b: number, c?: number){
+	return a + b + (c || 0);
+}
+
+console.log(add(2,5))
