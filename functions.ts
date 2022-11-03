@@ -52,4 +52,12 @@ function add(a: number, b: number, ...rest: number[]){
 
 console.log(add(10, 10, 10, 10, 10));
 
+//TYPE ALIAS
+
+type Negate = (value: number) => number;
+
+const negateFunction: Negate = (value) => value * -1;
+
+console.log(negateFunction(10));
+
 
