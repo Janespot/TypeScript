@@ -27,3 +27,13 @@ function add(a: number, b: number, c?: number){
 }
 
 console.log(add(2,5))
+
+//DEFAULT PARAMETERS
+
+function pow(value: number, exponent: number = 10){   //here, 10 is the default parameter
+	return value ** exponent;
+}
+
+console.log(pow(10));
+
+
