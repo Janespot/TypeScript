@@ -36,4 +36,20 @@ function pow(value: number, exponent: number = 10){   //here, 10 is the default 
 
 console.log(pow(10));
 
+//NAMED PARAMETERS
+
+function divide({ dividend, divisor }: { dividend: number, divisor: number }){
+	return dividend / divisor;
+}
+
+console.log(divide({dividend: 10, divisor: 2}));
+
+//REST PARAMETERS
+
+function add(a: number, b: number, ...rest: number[]){
+	return a + b + c + rest.reduce((p, c)) => p + c, 0);
+}
+
+console.log(add(10, 10, 10, 10, 10));
+
 
